@@ -1,0 +1,8 @@
+import roslib
+
+
+
+
+roslib.load_manifest('~/catkin_ws')
+
+
