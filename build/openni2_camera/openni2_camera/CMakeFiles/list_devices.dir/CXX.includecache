@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/include/openni2_camera/openni2_device_info.h
+ostream
+-
+boost/cstdint.hpp
+-
+
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/include/openni2_camera/openni2_device_manager.h
+openni2_camera/openni2_device_info.h
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/include/openni2_camera/openni2_camera/openni2_device_info.h
+boost/thread/mutex.hpp
+-
+vector
+-
+string
+-
+ostream
+-
+
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/include/openni2_camera/openni2_exception.h
+cstdarg
+-
+cstdio
+-
+exception
+-
+string
+-
+
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/src/list_devices.cpp
+iostream
+-
+openni2_camera/openni2_device_manager.h
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/src/openni2_camera/openni2_device_manager.h
+openni2_camera/openni2_exception.h
+/home/lee0436/catkin_ws/src/openni2_camera/openni2_camera/src/openni2_camera/openni2_exception.h
+
