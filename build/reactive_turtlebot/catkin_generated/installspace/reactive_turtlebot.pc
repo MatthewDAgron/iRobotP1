@@ -1,0 +1,8 @@
+prefix=/home/lee0436/catkin_ws/install
+
+Name: reactive_turtlebot
+Description: Description of reactive_turtlebot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
